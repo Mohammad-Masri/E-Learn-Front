@@ -26,12 +26,15 @@ export default function Navbar() {
 
         <div className="text-gray-400">|</div>
 
-        <Image
-          src="/icons/settings.svg"
-          alt="Settings"
-          width={32}
-          height={32}
-        />
+        <button>
+          <Image
+            src="/icons/settings.svg"
+            alt="Settings"
+            className="rounded-full hover:text-[#999]"
+            width={32}
+            height={32}
+          />
+        </button>
       </div>
     </nav>
   );
