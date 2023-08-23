@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-row justify-between px-6 md:px-20 py-6">
+    <nav className="flex flex-row justify-between px-6 md:px-20 py-6 z-10">
       <div className="flex flex-row justify-center items-center gap-3">
         <Link href="/">
           <Image src="/icons/logo.svg" alt="Logo" width={32} height={32} />
